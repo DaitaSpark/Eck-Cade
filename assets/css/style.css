@@ -68,6 +68,12 @@ body {
   animation: bounce 2.2s ease-in-out infinite;
 }
 
+/* keep each half of the title ("ECK" / "CADE") from splitting mid-word when wrapping */
+.word {
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
 /* chunky baby-block 3D edges via layered box-shadow, one color per letter */
 .c1 { background: var(--neon-pink);   box-shadow: 0 6px 0 #a3007e, 0 10px 18px rgba(255,46,196,0.55); --tilt: -4deg; animation-delay: 0s; }
 .c2 { background: var(--neon-yellow); box-shadow: 0 6px 0 #b58f00, 0 10px 18px rgba(255,233,74,0.5); --tilt: 3deg; animation-delay: 0.1s; }
