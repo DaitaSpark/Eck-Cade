@@ -213,8 +213,9 @@ footer {
   .game-card:hover, .game-card:focus-visible { transform: none; }
 }
 
-/* let tap feedback show on touch devices since :hover doesn't apply */
+/* bigger, punchier feedback for taps since :hover doesn't apply on touch devices */
 .game-card:active {
-  transform: scale(0.97);
+  transform: translateY(-4px) scale(1.08);
   border-color: var(--neon-pink);
+  box-shadow: 0 10px 30px rgba(255, 46, 196, 0.65);
 }
