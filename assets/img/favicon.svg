@@ -1,9 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="10" fill="#12071f"/>
-  <rect x="8" y="14" width="12" height="36" rx="3" fill="#ff2ec4"/>
-  <rect x="22" y="8" width="12" height="42" rx="3" fill="#ffe94a"/>
-  <rect x="36" y="14" width="12" height="36" rx="3" fill="#2ef0ff"/>
-  <rect x="8" y="14" width="12" height="6" rx="3" fill="#ffffff" opacity="0.35"/>
-  <rect x="22" y="8" width="12" height="6" rx="3" fill="#ffffff" opacity="0.35"/>
-  <rect x="36" y="14" width="12" height="6" rx="3" fill="#ffffff" opacity="0.35"/>
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="#2b0f4c" stroke="#ff2ec4" stroke-width="3"/>
+  <rect x="13" y="13" width="38" height="38" rx="8" fill="#12071f" stroke="#ffe94a" stroke-width="2"/>
+  <path d="M25 22H42M25 32H38M25 42H42M25 22V42" fill="none" stroke="#2ef0ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="12" cy="12" r="2.5" fill="#ffe94a"/>
+  <circle cx="32" cy="8" r="2.5" fill="#2ef0ff"/>
+  <circle cx="52" cy="12" r="2.5" fill="#ffe94a"/>
+  <circle cx="56" cy="32" r="2.5" fill="#2ef0ff"/>
+  <circle cx="52" cy="52" r="2.5" fill="#ffe94a"/>
+  <circle cx="32" cy="56" r="2.5" fill="#2ef0ff"/>
+  <circle cx="12" cy="52" r="2.5" fill="#ffe94a"/>
+  <circle cx="8" cy="32" r="2.5" fill="#2ef0ff"/>
 </svg>
