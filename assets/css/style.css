@@ -160,6 +160,18 @@ body {
   );
 }
 
+/* the icon is full-bleed art, so let it fill the tile */
+.unicorn-art {
+  background: #3db4f5;
+  overflow: hidden;
+}
+
+.game-card .unicorn-art .game-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .game-card .emoji {
   font-size: 1.8rem;
   line-height: 1;
